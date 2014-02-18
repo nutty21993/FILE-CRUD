@@ -18,5 +18,7 @@
         Hardeep Shoker 
     </author>
 	<gap:plugin name="org.apache.cordova.file" />
+	<gap:platform name="ios" />
+	<access origin="*" subdomains="true" />
 
 </widget>

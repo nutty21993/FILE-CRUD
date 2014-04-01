@@ -380,8 +380,9 @@ canvas.slider-timer {
     top: 0;
 }
 .content {
-    float: none;
-    width: 100%;
+	text-align:center;
+    
+    
 }
 .content-left {
     float: left;

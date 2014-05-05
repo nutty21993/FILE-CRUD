@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Resolve</title>
 
     <!-- Bootstrap -->
+    <link href="client.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-     <link href="css/Katies.css" rel="stylesheet">
      <script src="js/signin.js"> </script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -40,13 +40,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="client.html">Client</a></li>
+          <li><a href="index.html">Home</a></li>
         <li><a href="theteam.html">The Team</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li class="active"><a href="client.html">Client</a></li>
         <li><a href="shop.html">Shop</a></li>
+        
      
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"></a>
         </li>
       </ul>
       <form class="navbar-form navbar-left" role="search">
@@ -58,13 +60,70 @@
       <ul class="nav navbar-nav navbar-right">
        
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"></a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav> </h2>
 
+   <div class="clients">
+
+        	<h2> <b>Clients.</b></h2>
+        	<h5><p>Select a client from the table to load their details </h5> </p>
+            
+        	
+          <br>
+          <div class="textbox">
+           <img class="img-rounded" alt="Me" height"400" width="400" img src="Images/05 (1).jpg" align="right" /> 
+           </div>
+      
+
+ 
+
+<table class="tftable" border="1">
+<tr>
+  <th>Client</th>
+  <th>Engineer</th>
+  <th>Issue</th>
+  <th>Hours Spent</th></tr>
+<tr>
+  <td>Julie Anne</td>
+  <td>Brad</td>
+  <td>New hardrive needed</td>
+  <td>3 hours</td></tr>
+<tr>
+  <td>Walter Smith</td>
+  <td>Russell</td>
+  <td>Website designed and produced</td>
+  <td>10 hours</td></tr>
+<tr>
+  <td>Rodger Moore</td>
+  <td>Tim</td>
+  <td>Can't get PC to turn on</td>
+  <td>0 hours</td></tr>
+<tr>
+  <td>Ricky Martin</td>
+  <td>Tim</td>
+  <td>Want AVG installed</td>
+  <td>1 hour</td></tr>
+<tr>
+  <td>Katie Pooth</td>
+  <td>Brad</td>
+  <td>Clean up laptop and install AVG</td>
+  <td>2 hours</td></tr>
+<tr>
+  <td>Jessica Lowe</td>
+  <td>Russell</td>
+  <td>Attempt to restore corrupt files</td>
+  <td>1 hour</td></tr>
+</table>
+<br>
+<p><strong>
+<button onclick="myFunction()">Add New Client</button>
+</strong></p>
+   </div> 
+          
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

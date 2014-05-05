@@ -1,8 +1,13 @@
 
 // JavaScript Document
-$("#signinsubmit").click(function() {
+
+
+function signin() {
     var userEmail = $("#loginEmail").val();
     var userPass = $("#loginPassword").val();
+	
+	alert(userEmail);
+	alert(userPass);
 
     Parse.User.logIn(userEmail, userPass, {
 
@@ -17,4 +22,4 @@ $("#signinsubmit").click(function() {
             console.log(error);
         }
     });
-});
+}

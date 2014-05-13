@@ -6,7 +6,55 @@ body {
   padding-bottom: 40px;
 
 }
+h1,h2,h3,.nav,.altfont{
+	font-family: 'Droid Serif', serif;
+}
 
+h1 {
+	margin-bottom: 25px;	
+}
+
+.panel, .panel p  {
+	color:#333;
+	
+}
+.panel h1, .panel h2, .panel h3, .panael h4{
+	color:#9A7C8E;
+	margin-bottom: 25px;
+}
+
+.row h4, h4 a {
+	color:#9A7C8E;
+}
+
+
+.homepic {
+	text-align:right;
+}
+
+a{
+	color:#999;
+	border-bottom:1px dotted
+ #FCF;
+ }
+
+
+.largefont{
+	font-size:2em;
+}
+
+.row {
+	clear: both;}
+	
+.floatleft {
+	float: left;
+	margin-right: 50px;
+}
+	
+.clear {
+	clear: both;
+}
+		
 
 
 /* CUSTOMIZE THE NAVBAR

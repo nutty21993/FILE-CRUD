@@ -54,8 +54,17 @@ a{
 .clear {
 	clear: both;
 }
-		
 
+/* adding padding*/
+.col-md-5{
+	padding-left:3em;
+		
+}
+
+.row featurette{
+	padding-left:3em;
+	
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
